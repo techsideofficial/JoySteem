@@ -20,8 +20,9 @@ export function CreateUser(email) {
     var EmailUser = email.split('@')[0];
     const db = getDatabase();
     const CurrentUserID = GenerateID(16);
+    SetCookie("userid", CurrentUserID)
 
-    set(ref(db, 'users/' + CurrentUserID), {
+    set(ref(db, 'users/' + UserNameFromEmail(email)), {
       username: EmailUser,
       userid: CurrentUserID,
       email: email,
@@ -50,6 +51,8 @@ export function UserOnlineStatus(userid, status) {
     set(ref(db, 'users/' + userid), {
         isOnline: status
     });
+
+
 }
 
 export function UserStatusByEmail(InputEmail, status) {
@@ -195,7 +198,7 @@ window.UploadAvatar = function() {
 export function UpdateAvatarURL(AvtURL) {
     const db = getDatabase();
 
-    set(ref(db, 'users/' + GetUserByEmail(GetCookie("email")) + '/'), {
-      avatar : AvtURL
+    set(ref(db, 'users/' + UserNameFromEmail(localStorage.getItem("email")) + '/'), {
+        avatar: AvtURL
     });
 }
