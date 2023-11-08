@@ -1,4 +1,4 @@
-import { getDatabase, ref, set, onValue } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-database.js";
+import { getDatabase, ref, set, onValue, update } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-database.js";
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
 import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-analytics.js";
 import { getStorage, uploadBytesResumable, getDownloadURL, ref as sRef } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-storage.js";
@@ -22,7 +22,7 @@ export function CreateUser(email) {
     const CurrentUserID = GenerateID(16);
     SetCookie("userid", CurrentUserID)
 
-    set(ref(db, 'users/' + UserNameFromEmail(email)), {
+    set(ref(db, 'users/' + CurrentUserID), {
       username: EmailUser,
       userid: CurrentUserID,
       email: email,
@@ -69,10 +69,9 @@ export function CreateUserToken(email, password) {
     const db = getDatabase();
     const EncryptionKey = GenerateID(32);
 
-    set(ref(db, 'users/token/' + UserNameFromEmail(email)), {
-        token: EncryptionKey
+    update(ref(db, 'users/' + GetUserByEmail(email)), {
+        cookieEncryptionKey: EncryptionKey
     });
-
     var EmailCookieToken = email;
     var PasswordCookieToken = EncodeToken(CryptoJS.AES.encrypt(password, EncryptionKey));
     SetCookie("email", EmailCookieToken);
@@ -96,7 +95,7 @@ export function RetrieveUserToken(email) {
     } else {
 
         const db = getDatabase();
-        const IndexDB = ref(db, 'users/token/' + GetUserByEmail(email));
+        const IndexDB = ref(db, 'users/' + GetUserByEmail(email) + '/' + cookieEncryptionKey);
         onValue(IndexDB, (snapshot) => {
             const ReturnedKey = snapshot.val();
             var DecryptedEmail = GetCookie("email");
@@ -157,7 +156,7 @@ export function UserProfileOnHomePage() {
 
 window.UploadAvatar = function() {
     const storage = getStorage();
-    const storageRef = sRef(storage, "user/" + localStorage.getItem("email").split('@')[0] + "/avatar.png");
+    const storageRef = sRef(storage, "users/" + localStorage.getItem("email").split('@')[0] + "/avatar.png");
 
     const uploadTask = uploadBytesResumable(storageRef, document.getElementById("avatar-upload").files[0]);
 
@@ -186,7 +185,7 @@ window.UploadAvatar = function() {
   () => {
     // Handle successful uploads on complete
     // For instance, get the download URL: https://firebasestorage.googleapis.com/...
-    getDownloadURL(sRef(storage, "user/" + localStorage.getItem("email").split('@')[0] + "/avatar.png"))
+    getDownloadURL(sRef(storage, "users/" + localStorage.getItem("email").split('@')[0] + "/avatar.png"))
     .then((url) => {
         console.log(url);
         UpdateAvatarURL(url);
@@ -196,9 +195,12 @@ window.UploadAvatar = function() {
 }
 
 export function UpdateAvatarURL(AvtURL) {
-    const db = getDatabase();
+    UpdateHelper(AvtURL);
+}
 
-    set(ref(db, 'users/' + UserNameFromEmail(localStorage.getItem("email")) + '/'), {
-        avatar: AvtURL
+export function UpdateHelper(AvatarURL) {
+    const db = getDatabase()
+    update(ref(db, 'users/' + GetUserByEmail(GetCookie("email"))), {
+        avatar: AvatarURL
     });
 }
