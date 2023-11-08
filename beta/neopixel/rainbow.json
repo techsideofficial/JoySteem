@@ -1,0 +1,48 @@
+{"NeoPixelEffects": {
+  "strips":[
+    {
+      "pin" : "12",
+      "leds" : "10",
+      "frequence" : "800",
+      "type" : "NEO_GRB",
+      "loop" : [
+        {
+          "type" : "EffectRainbow",
+          "steps" : "34",
+          "delay" : "20",
+          "colors" : [
+            {
+              "red" : "255",
+              "green" : "0",
+              "blue" : "0",
+              "white" : "0"
+            },
+            {
+              "red" : "0",
+              "green" : "255",
+              "blue" : "0",
+              "white" : "0"
+            },
+            {
+              "red" : "0",
+              "green" : "0",
+              "blue" : "255",
+              "white" : "0"
+            }
+          ],
+          "options" : [
+            {
+              "name" : "rainbowlen",
+              "value" : "10"
+            },
+            {
+              "name" : "toLeft",
+              "value" : "true"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+}

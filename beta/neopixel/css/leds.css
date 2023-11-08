@@ -1,0 +1,27 @@
+.ledstrip
+{
+  width:100%;
+  height: auto;
+  display:flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: rgb(238, 238, 238);
+  margin-top: 10px;
+}
+
+.ledstrip:hover
+{
+  background: rgb(194, 194, 194);
+}
+
+.pixelled
+{
+  display:inline-flex;
+  max-width:8vw;
+  max-height:8vw;
+  background-image: radial-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5), rgba(255,255,255,0.1)), url(pixel.png);
+  background-size: cover, cover;
+  vertical-align:middle;
+}
+

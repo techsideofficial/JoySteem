@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://cdn.jsdelivr.net/npm/jquery"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery.terminal/js/jquery.terminal.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jquery.terminal/css/jquery.terminal.min.css"/>
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.14.6/firebase-database.js"></script>
+<script type="text/javascript" src="database-functions.js"></script>
+</head>
+<body>
+  <script>
+$('body').terminal({
+    announce: function(text) {addAnnounce(text)},
+    list: function() {
+        firebase.database().ref('announcements').once('value', (snapshot) => {
+          snapshot.forEach((childSnapshot) => {
+          var childKey = childSnapshot.key;
+          var childData = childSnapshot.val();
+          console.log(childData);
+          this.echo(JSON.stringify(childData));
+  });
+});
+    }
+})
+</script>
+</body>
+</html>
