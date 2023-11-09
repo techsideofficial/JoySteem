@@ -9,6 +9,7 @@
       "**/.*",
       "**/node_modules/**",
       "deploy.bat",
+      "*.bat",
       "**/authendpoint/**"
     ]
   }
