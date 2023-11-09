@@ -8,10 +8,8 @@ export default {
   "tagline": "Test Site",
   "favicon": "img/favicon.ico",
   "url": "https://joysteem.web.app",
-  "baseUrl": "/site-new/main/",
-  "organizationName": "techsideofficial",
-  "projectName": "JoySteem",
-  "onBrokenLinks": "ignore",
+  "baseUrl": "/site-new/joysteem/build/",
+  "onBrokenLinks": "warn",
   "onBrokenMarkdownLinks": "warn",
   "i18n": {
     "defaultLocale": "en",

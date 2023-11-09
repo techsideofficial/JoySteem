@@ -5,7 +5,7 @@
   "source": "@site/docs/Projects/test.md",
   "sourceDirName": "Projects",
   "slug": "/Projects/test",
-  "permalink": "/site-new/main/docs/Projects/test",
+  "permalink": "/site-new/joysteem/build/docs/Projects/test",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Projects/test.md",
@@ -15,6 +15,5 @@
   "frontMatter": {
     "sidebar_label": "Tests",
     "sidebar_position": 3
-  },
-  "sidebar": "tutorialSidebar"
+  }
 }

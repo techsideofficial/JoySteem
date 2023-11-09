@@ -3,82 +3,81 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/site-new/main/blog',
-    component: ComponentCreator('/site-new/main/blog', 'd18'),
+    path: '/site-new/joysteem/build/blog',
+    component: ComponentCreator('/site-new/joysteem/build/blog', 'fde'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/archive',
-    component: ComponentCreator('/site-new/main/blog/archive', 'a30'),
+    path: '/site-new/joysteem/build/blog/archive',
+    component: ComponentCreator('/site-new/joysteem/build/blog/archive', 'ef6'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/first-blog-post',
-    component: ComponentCreator('/site-new/main/blog/first-blog-post', '16f'),
+    path: '/site-new/joysteem/build/blog/first-blog-post',
+    component: ComponentCreator('/site-new/joysteem/build/blog/first-blog-post', '048'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/long-blog-post',
-    component: ComponentCreator('/site-new/main/blog/long-blog-post', '813'),
+    path: '/site-new/joysteem/build/blog/long-blog-post',
+    component: ComponentCreator('/site-new/joysteem/build/blog/long-blog-post', 'e00'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/mdx-blog-post',
-    component: ComponentCreator('/site-new/main/blog/mdx-blog-post', '7f5'),
+    path: '/site-new/joysteem/build/blog/mdx-blog-post',
+    component: ComponentCreator('/site-new/joysteem/build/blog/mdx-blog-post', '8a4'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/tags',
-    component: ComponentCreator('/site-new/main/blog/tags', '1a5'),
+    path: '/site-new/joysteem/build/blog/tags',
+    component: ComponentCreator('/site-new/joysteem/build/blog/tags', '78a'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/tags/docusaurus',
-    component: ComponentCreator('/site-new/main/blog/tags/docusaurus', '4c1'),
+    path: '/site-new/joysteem/build/blog/tags/docusaurus',
+    component: ComponentCreator('/site-new/joysteem/build/blog/tags/docusaurus', 'b79'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/tags/facebook',
-    component: ComponentCreator('/site-new/main/blog/tags/facebook', '7c7'),
+    path: '/site-new/joysteem/build/blog/tags/facebook',
+    component: ComponentCreator('/site-new/joysteem/build/blog/tags/facebook', 'f66'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/tags/hello',
-    component: ComponentCreator('/site-new/main/blog/tags/hello', '2a7'),
+    path: '/site-new/joysteem/build/blog/tags/hello',
+    component: ComponentCreator('/site-new/joysteem/build/blog/tags/hello', 'f57'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/tags/hola',
-    component: ComponentCreator('/site-new/main/blog/tags/hola', '2f7'),
+    path: '/site-new/joysteem/build/blog/tags/hola',
+    component: ComponentCreator('/site-new/joysteem/build/blog/tags/hola', '09e'),
     exact: true
   },
   {
-    path: '/site-new/main/blog/welcome',
-    component: ComponentCreator('/site-new/main/blog/welcome', 'cac'),
+    path: '/site-new/joysteem/build/blog/welcome',
+    component: ComponentCreator('/site-new/joysteem/build/blog/welcome', '8c4'),
     exact: true
   },
   {
-    path: '/site-new/main/projects/',
-    component: ComponentCreator('/site-new/main/projects/', 'e83'),
+    path: '/site-new/joysteem/build/projects/',
+    component: ComponentCreator('/site-new/joysteem/build/projects/', '770'),
     exact: true
   },
   {
-    path: '/site-new/main/docs',
-    component: ComponentCreator('/site-new/main/docs', '34f'),
+    path: '/site-new/joysteem/build/docs',
+    component: ComponentCreator('/site-new/joysteem/build/docs', '1df'),
     routes: [
       {
-        path: '/site-new/main/docs',
-        component: ComponentCreator('/site-new/main/docs', '572'),
+        path: '/site-new/joysteem/build/docs',
+        component: ComponentCreator('/site-new/joysteem/build/docs', 'bb9'),
         routes: [
           {
-            path: '/site-new/main/docs',
-            component: ComponentCreator('/site-new/main/docs', 'a93'),
+            path: '/site-new/joysteem/build/docs',
+            component: ComponentCreator('/site-new/joysteem/build/docs', '004'),
             routes: [
               {
-                path: '/site-new/main/docs/Projects/test',
-                component: ComponentCreator('/site-new/main/docs/Projects/test', 'f90'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                path: '/site-new/joysteem/build/docs/Projects/test',
+                component: ComponentCreator('/site-new/joysteem/build/docs/Projects/test', '581'),
+                exact: true
               }
             ]
           }

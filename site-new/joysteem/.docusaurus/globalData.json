@@ -1,30 +1,22 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/site-new/main/docs",
+      "path": "/site-new/joysteem/build/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/site-new/main/docs",
+          "path": "/site-new/joysteem/build/docs",
           "mainDocId": "Projects/test",
           "docs": [
             {
               "id": "Projects/test",
-              "path": "/site-new/main/docs/Projects/test",
-              "sidebar": "tutorialSidebar"
+              "path": "/site-new/joysteem/build/docs/Projects/test"
             }
           ],
           "draftIds": [],
-          "sidebars": {
-            "tutorialSidebar": {
-              "link": {
-                "path": "/site-new/main/docs/Projects/test",
-                "label": "Tests"
-              }
-            }
-          }
+          "sidebars": {}
         }
       ],
       "breadcrumbs": true

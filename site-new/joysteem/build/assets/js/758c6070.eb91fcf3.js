@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjoysteem=self.webpackChunkjoysteem||[]).push([[675],{1112:e=>{e.exports=JSON.parse('{"label":"hola","permalink":"/site-new/joysteem/build/blog/tags/hola","allTagsPath":"/site-new/joysteem/build/blog/tags","count":1,"unlisted":false}')}}]);

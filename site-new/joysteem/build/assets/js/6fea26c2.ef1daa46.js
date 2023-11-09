@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjoysteem=self.webpackChunkjoysteem||[]).push([[668],{6214:e=>{e.exports=JSON.parse('{"label":"facebook","permalink":"/site-new/joysteem/build/blog/tags/facebook","allTagsPath":"/site-new/joysteem/build/blog/tags","count":1,"unlisted":false}')}}]);
