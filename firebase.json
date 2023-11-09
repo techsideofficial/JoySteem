@@ -9,7 +9,7 @@
       "**/.*",
       "**/node_modules/**",
       "deploy.bat",
-      "*.bat",
+      "/site-new/reset-new-site.bat",
       "**/authendpoint/**"
     ]
   }
