@@ -1,18 +1,18 @@
 {
   "docusaurus-plugin-content-docs": {
     "default": {
-      "path": "/site-new/joysteem/build/docs",
+      "path": "/site-new/joysteem/docs",
       "versions": [
         {
           "name": "current",
           "label": "Next",
           "isLast": true,
-          "path": "/site-new/joysteem/build/docs",
+          "path": "/site-new/joysteem/docs",
           "mainDocId": "Projects/test",
           "docs": [
             {
               "id": "Projects/test",
-              "path": "/site-new/joysteem/build/docs/Projects/test"
+              "path": "/site-new/joysteem/docs/Projects/test"
             }
           ],
           "draftIds": [],

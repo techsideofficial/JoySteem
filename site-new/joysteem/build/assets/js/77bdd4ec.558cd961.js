@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkjoysteem=self.webpackChunkjoysteem||[]).push([[962],{13:e=>{e.exports=JSON.parse('{"permalink":"/site-new/joysteem/build/blog/tags/docusaurus","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

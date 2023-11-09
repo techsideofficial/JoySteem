@@ -1,162 +1,25 @@
 {
-  "/site-new/joysteem/build/blog-fde": {
-    "__comp": "a6aa9e1f",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "metadata": "3d9fc25f"
-  },
-  "/site-new/joysteem/build/blog/archive-ef6": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "archive": "be69af95"
-  },
-  "/site-new/joysteem/build/blog/first-blog-post-048": {
-    "__comp": "ccc49370",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "content": "e273c56f"
-  },
-  "/site-new/joysteem/build/blog/long-blog-post-e00": {
-    "__comp": "ccc49370",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "content": "73664a40"
-  },
-  "/site-new/joysteem/build/blog/mdx-blog-post-8a4": {
-    "__comp": "ccc49370",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "content": "59362658"
-  },
-  "/site-new/joysteem/build/blog/tags-78a": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "tags": "ee4c1058"
-  },
-  "/site-new/joysteem/build/blog/tags/docusaurus-b79": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "f4f34a3a"
-      },
-      {
-        "content": "8717b14a"
-      },
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "tag": "130b0ab8",
-    "listMetadata": "77bdd4ec"
-  },
-  "/site-new/joysteem/build/blog/tags/facebook-f66": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      }
-    ],
-    "tag": "6fea26c2",
-    "listMetadata": "9d4aebbd"
-  },
-  "/site-new/joysteem/build/blog/tags/hello-f57": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "7661071f"
-      },
-      {
-        "content": "8717b14a"
-      }
-    ],
-    "tag": "a7b78015",
-    "listMetadata": "0e79da7a"
-  },
-  "/site-new/joysteem/build/blog/tags/hola-09e": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "925b3f96"
-      }
-    ],
-    "tag": "758c6070",
-    "listMetadata": "a5cc04cc"
-  },
-  "/site-new/joysteem/build/blog/welcome-8c4": {
-    "__comp": "ccc49370",
-    "__context": {
-      "plugin": "14c4b667"
-    },
-    "sidebar": "814f3328",
-    "content": "d9f32620"
-  },
-  "/site-new/joysteem/build/projects/-770": {
+  "/site-new/joysteem/projects/-ff3": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "59c09780"
     },
     "content": "12397fdc"
   },
-  "/site-new/joysteem/build/docs-1df": {
+  "/site-new/joysteem/docs-ea0": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "8c4f3bfa"
     }
   },
-  "/site-new/joysteem/build/docs-bb9": {
+  "/site-new/joysteem/docs-f12": {
     "__comp": "a7bd4aaa",
     "version": "935f2afb"
   },
-  "/site-new/joysteem/build/docs-004": {
+  "/site-new/joysteem/docs-a19": {
     "__comp": "a94703ab"
   },
-  "/site-new/joysteem/build/docs/Projects/test-581": {
+  "/site-new/joysteem/docs/Projects/test-3ab": {
     "__comp": "17896441",
     "content": "72f3ba99"
   }

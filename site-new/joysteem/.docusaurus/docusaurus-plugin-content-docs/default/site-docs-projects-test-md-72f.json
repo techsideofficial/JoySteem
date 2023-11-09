@@ -5,7 +5,7 @@
   "source": "@site/docs/Projects/test.md",
   "sourceDirName": "Projects",
   "slug": "/Projects/test",
-  "permalink": "/site-new/joysteem/build/docs/Projects/test",
+  "permalink": "/site-new/joysteem/docs/Projects/test",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/Projects/test.md",
