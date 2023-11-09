@@ -16,14 +16,14 @@ const config = {
   url: 'https://joysteem.web.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/site-new/main/',
+  baseUrl: '/site-new/joysteem/build/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'techsideofficial', // Usually your GitHub org/user name.
-  projectName: 'JoySteem', // Usually your repo name.
+  // organizationName: 'techsideofficial', // Usually your GitHub org/user name.
+  // projectName: 'JoySteem', // Usually your repo name.
 
-  onBrokenLinks: 'ignore',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set

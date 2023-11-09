@@ -1,0 +1,25 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Welcome",
+      "permalink": "/site-new/main/blog/welcome",
+      "unlisted": false
+    },
+    {
+      "title": "MDX Blog Post",
+      "permalink": "/site-new/main/blog/mdx-blog-post",
+      "unlisted": false
+    },
+    {
+      "title": "Long Blog Post",
+      "permalink": "/site-new/main/blog/long-blog-post",
+      "unlisted": false
+    },
+    {
+      "title": "First Blog Post",
+      "permalink": "/site-new/main/blog/first-blog-post",
+      "unlisted": false
+    }
+  ]
+}
