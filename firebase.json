@@ -9,6 +9,8 @@
       "**/.*",
       "**/node_modules/**",
       "deploy.bat",
+      "site-build.bat",
+      "site-cd.bat",
       "**/authendpoint/**"
     ]
   }

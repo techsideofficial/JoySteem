@@ -68,7 +68,7 @@ const config = {
       navbar: {
         title: 'JoySteem',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'JoySteem Logo',
           src: 'img/logo.png',
         },
         items: [
