@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/techsideofficial/JoySteem/site-new/joysteem-new/',
+            'https://github.com/techsideofficial/JoySteem/tree/main/site-new/joysteem-new',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/techsideofficial/JoySteem/site-new/joysteem-new/',
+            'https://github.com/techsideofficial/JoySteem/tree/main/site-new/joysteem-new',
         },
         theme: {
           customCss: './src/css/custom.css',
