@@ -3,7 +3,7 @@
 
 **Progress**
 
-![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/10)
+![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/24)
 
 ## Level Status
 
@@ -25,16 +25,16 @@
 - 12 - Throne Room ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
 
 ### Sandbox
-- Museum Basement
-- REDACTED Chamber
-- Blank Box
-- Handgun Range
-- Tuscany
-- Hover Junkers
+- Museum Basement ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/88)
+- REDACTED Chamber ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/60)
+- Blank Box ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
+- Handgun Range ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
+- Tuscany ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
+- Hover Junkers ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
 
 ### Arena
-- Fantasy Arena
-- Zombie Warehouse
+- Fantasy Arena ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
+- Zombie Warehouse ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
 
 **RECWORKS** aims to be a recreation of **BONEWORKS** and **BONELAB** in **Rec Room**. 
 
