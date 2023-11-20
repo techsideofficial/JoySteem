@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'JoySteem',
-  tagline: 'I hope you like the new site!',
+  title: 'ArpaRec',
+  tagline: 'Experienced Developers', // Add API to get MOTD - /api/v1/motd
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -66,9 +66,9 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'JoySteem',
+        title: 'ArpaRec',
         logo: {
-          alt: 'JoySteem Logo',
+          alt: 'ArpaRec Logo',
           src: 'img/logo.png',
         },
         items: [
@@ -76,7 +76,7 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'mainSidebar',
             position: 'left',
-            label: 'JoySteem',
+            label: 'ArpaRec',
           },
           // {to: 'blog', label: 'Blog', position: 'left'},
           {
@@ -94,7 +94,7 @@ const config = {
             items: [
               {
                 label: 'What is this?',
-                to: '/docs/whatisthis.md',
+                to: '/docs/whatisthis',
               },
             ],
           },
