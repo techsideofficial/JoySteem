@@ -3,7 +3,7 @@
 
 **Progress**
 
-![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/24)
+![Progress](https://arparec.dev/percentages/webpage)
 
 ## Level Status
 
