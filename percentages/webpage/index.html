@@ -2,8 +2,8 @@
 <html>
     <header id="header">
         <script>
-            var meanNumber = fetch('https://us-central1-joysteem.cloudfunctions.net/recworks-progress-mean').response
-            var progBar = fetch('https://us-central1-joysteem.cloudfunctions.net/progress/' + meanNumber).response
+            var meanNumber = fetch('https://us-central1-joysteem.cloudfunctions.net/recworks-progress-mean', {mode: "no-cors"}).response
+            var progBar = fetch('https://us-central1-joysteem.cloudfunctions.net/progress/' + meanNumber, {mode: "no-cors"}).response
 
             var img = document.createElement("img");
             img.src = progBar;
