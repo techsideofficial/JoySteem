@@ -3,7 +3,7 @@
 
 **Progress**
 
-![Progress](https://joysteem.web.app/percentages/main/)
+![Progress](https://joysteem.web.app/percentages/main/index.html)
 
 ## Level Status
 
