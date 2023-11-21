@@ -3,7 +3,7 @@
 
 **Progress**
 
-![Progress](https://arparec.dev/percentages/webpage)
+![Progress](https://joysteem.web.app/percentages/main/)
 
 ## Level Status
 
