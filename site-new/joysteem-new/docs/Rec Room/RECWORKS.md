@@ -3,7 +3,7 @@
 
 **Progress**
 
-<embed src="https://joysteem.web.app/percentages/webpage/">
+<embed width=60 height=40 src="https://joysteem.web.app/percentages/webpage/">
 
 ## Level Status
 
