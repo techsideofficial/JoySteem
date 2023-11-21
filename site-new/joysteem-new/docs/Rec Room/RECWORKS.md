@@ -1,9 +1,9 @@
 # RECWORKS
 
 
-**Progress**
+## **Progress**
 
-<iframe src="https://joysteem.web.app/percentages/webpage/#bar"></iframe>
+<iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/webpage/index.html#bar"></iframe> 
 
 ## Level Status
 
