@@ -28,13 +28,14 @@
 - Museum Basement <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/museumbasement.html#bar"></iframe> 
 - REDACTED Chamber <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/redactedchamber.html#bar"></iframe> 
 - Blank Box <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/blankbox.html#bar"></iframe> 
-- Handgun Range <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/hangunrange.html#bar"></iframe> 
+- Handgun Range <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/handgunrange.html#bar"></iframe> 
 - Tuscany <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/tuscany.html#bar"></iframe> 
 - Hover Junkers <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/hoverjunkers.html#bar"></iframe> 
 
 ### Arena
 - Fantasy Arena <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/fantasyarena.html#bar"></iframe> 
-- Zombie Warehouse <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/zombiewarehouse.html#bar"></iframe> 
+- Zombie Warehouse <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/zombiewarehouse.html#bar"></iframe><br/> 
+
 **RECWORKS** aims to be a recreation of **BONEWORKS** and **BONELAB** in **Rec Room**. 
 
 ## Things to know
