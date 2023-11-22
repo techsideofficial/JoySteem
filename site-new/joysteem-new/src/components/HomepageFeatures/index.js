@@ -5,7 +5,7 @@ import styles from './styles.module.css';
 const FeatureList = [
   {
     title: 'RECWORKS',
-    Svg: require('@site/static/img/svg_tools.svg').default,
+    Svg: require('@site/static/img/svg_recworks.svg').default,
     description: (
       <>
       A BONEWORKS recreation in Rec Room!
