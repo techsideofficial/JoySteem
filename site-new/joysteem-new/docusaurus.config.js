@@ -121,7 +121,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} JoySteem.`,
+        copyright: `Copyright © ${new Date().getFullYear()} ArpaRec.`,
       },
       prism: {
         theme: prismThemes.github,
