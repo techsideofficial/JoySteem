@@ -15,7 +15,7 @@
     
                 async function getText() {
                     let searchParams = new URLSearchParams(window.location.search)
-                    let myObject = await fetch("https://us-central1-joysteem.cloudfunctions.net/getrwprog?query=" + searchParams.get('level'));
+                    let myObject = await fetch("https://us-central1-joysteem.cloudfunctions.net/getrwprog?query=zombiewarehouse")
                     let myText = await myObject.text();
                     SetImage(myText);
                 }

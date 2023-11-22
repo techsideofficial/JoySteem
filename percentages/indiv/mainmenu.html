@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <header id="header">
+    </header>
+    <head>
+        <script> 
+            getText();
+                function SetImage(MeanNum) {
+                    var img = document.createElement("img");
+                    img.src = "https://us-central1-joysteem.cloudfunctions.net/progress-large/" + MeanNum
+                    var src = document.getElementById("header");
+                    src.appendChild(img);
+                    img.setAttribute('id', 'bar');
+                }
+    
+                async function getText() {
+                    let searchParams = new URLSearchParams(window.location.search)
+                    let myObject = await fetch("https://us-central1-joysteem.cloudfunctions.net/getrwprog?query=mainmenu")
+                    let myText = await myObject.text();
+                    SetImage(myText);
+                }
+
+
+            </script>
+    </head>
+</html>
