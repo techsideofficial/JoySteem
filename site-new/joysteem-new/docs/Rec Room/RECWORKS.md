@@ -8,34 +8,33 @@
 ## Level Status
 
 ### Story 
-- 00 - Demo ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/100)
-- 00 - Intro ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/100)
-- 00 - Main Menu ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/98)
-- 01 - Breakroom ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/60)
-- 02 - Museum ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/40)
-- 03 - Streets ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 04 - Runoff ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 05 - Sewers ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 06 - Warehouse ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 07 - Central Station ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 08 - Tower ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 09 - Time Tower ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 10 - Dungeon ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 11 - Arena ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- 12 - Throne Room ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
+- 00 - Demo <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=demo#bar"></iframe> 
+- 00 - Intro <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=intro#bar"></iframe> 
+- 00 - Main Menu <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=mainmenu#bar"></iframe> 
+- 01 - Breakroom <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=breakroom#bar"></iframe> 
+- 02 - Museum <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=museum#bar"></iframe> 
+- 03 - Streets <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=streets#bar"></iframe> 
+- 04 - Runoff <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=runoff#bar"></iframe> 
+- 05 - Sewers <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=sewers#bar"></iframe> 
+- 06 - Warehouse <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=warehouse#bar"></iframe> 
+- 07 - Central Station <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=centralstation#bar"></iframe> 
+- 08 - Tower <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=tower#bar"></iframe> 
+- 09 - Time Tower <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=timetower#bar"></iframe> 
+- 10 - Dungeon <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=dungeon#bar"></iframe> 
+- 11 - Arena <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=arena#bar"></iframe> 
+- 12 - Throne Room <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=throneroom#bar"></iframe> 
 
 ### Sandbox
-- Museum Basement ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/88)
-- REDACTED Chamber ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/60)
-- Blank Box ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- Handgun Range ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- Tuscany ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- Hover Junkers ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
+- Museum Basement <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=museumbasement#bar"></iframe> 
+- REDACTED Chamber <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=redactedchamber#bar"></iframe> 
+- Blank Box <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=blankbox#bar"></iframe> 
+- Handgun Range <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=handgunrange#bar"></iframe> 
+- Tuscany <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=tuscany#bar"></iframe> 
+- Hover Junkers <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=hoverjunkers#bar"></iframe> 
 
 ### Arena
-- Fantasy Arena ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-- Zombie Warehouse ![Progress](https://us-central1-joysteem.cloudfunctions.net/progress/0)
-
+- Fantasy Arena <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=fantasyarena#bar"></iframe> 
+- Zombie Warehouse <iframe width="100" height="30" scrolling="no" src="https://joysteem.web.app/percentages/indiv/index.html?level=zombiewarehouse#bar"></iframe> 
 **RECWORKS** aims to be a recreation of **BONEWORKS** and **BONELAB** in **Rec Room**. 
 
 ## Things to know
