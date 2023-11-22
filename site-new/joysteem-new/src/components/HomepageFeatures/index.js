@@ -4,12 +4,11 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Tools',
+    title: 'RECWORKS',
     Svg: require('@site/static/img/svg_tools.svg').default,
     description: (
       <>
-        This site has various tools that are useful for developers
-        and users alike.
+      A BONEWORKS recreation in Rec Room!
       </>
     ),
   },

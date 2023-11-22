@@ -1,5 +1,7 @@
 # RECLAB
 
+***This Project is currently on hold due to RRS-related issues.***
+
 **RECLAB** aims to be a recreation of **BONELAB** in **Rec Room**. 
 
 ## Things to know
