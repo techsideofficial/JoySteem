@@ -1,4 +1,4 @@
-# Arduino NeoPixel Generator
+# ArpaPixel
 
 This tool is used to generate code for an Arduino board with a NeoPixel Strip connected to it.
 
