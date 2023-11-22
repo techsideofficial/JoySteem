@@ -14,26 +14,13 @@
                 }
     
                 async function getText() {
-                    let myObject = await fetch("https://us-central1-joysteem.cloudfunctions.net/getrwprog?query=" + getUrlParameter('level'));
+                    let searchParams = new URLSearchParams(window.location.search)
+                    let myObject = await fetch("https://us-central1-joysteem.cloudfunctions.net/getrwprog?query=" + searchParams.get('level'));
                     let myText = await myObject.text();
                     SetImage(myText);
                 }
 
-                var getUrlParameter = function getUrlParameter(sParam) {
-                    var sPageURL = window.location.search.substring(1),
-                        sURLVariables = sPageURL.split('&'),
-                        sParameterName,
-                        i;
 
-                    for (i = 0; i < sURLVariables.length; i++) {
-                        sParameterName = sURLVariables[i].split('=');
-
-                        if (sParameterName[0] === sParam) {
-                        return sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]);
-                        }
-                    }
-                        return false;
-                };
             </script>
     </head>
 </html>
